@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex assignment</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+   body{
+    background-color:#141414 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+
+    img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-top: 25px;
+    }
+
+    section{
+      background-color: #1F1F1F; ;
+      width: 300px;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+    }
+
+   section .commy{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+   }
+    section .nigeria{
+      font-size: 15px;
+      line-height: 19px;
+      margin-left: 5px;
+      color: #687C37;
+    }
+    section .front{
+      color:white;
+      font-size: 12px;
+      margin: 20px 0 10px 0;
+    }
+    section input{
+      background-color: rgb(51, 51, 51);
+      margin-top: 15px;
+      width: 70%;
+      padding: 10px 25px;
+      border:none;
+      text-align: center;
+      border-radius: 5px;
+    }
+    ::placeholder{
+      color: white;
+    }
+    
+    .general{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  </style>
+</head>
+<body>
+  <section>
+       <div class="general">
+      <img src="images/IMG_20250123_092003.jpg" alt="">
+    <p class="commy">Comfort Ibatt</p>
+    <p class="nigeria">Nigeria, Akwa Ibom</p>
+    <p class="front">"Front-end developer and avid reader."</p>
+
+    <input type="text" placeholder="Github" class="holder">
+    <input type="text" placeholder="Frontend Mentor" class="holder">
+    <input type="text" placeholder="LinkedIn" class="holder">
+    <input type="text" placeholder="Twitter" class="holder">
+    <input type="text" placeholder="Instagram" class="holder">
+    
+       </div>
+  </section>
+  
+  
+  </body>
+  
+ 
+</html>
